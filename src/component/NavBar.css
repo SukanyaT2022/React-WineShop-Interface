@@ -9,3 +9,55 @@
     text-align: center;
 padding: 20px;
 }
+
+.logo{
+    display: flex;
+    margin-left: 50px;
+
+}
+.logoIcon{
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+/* below section */
+
+.mainBelow{
+    display: flex;
+    margin-left: 50px;
+
+
+
+
+}
+.navLink{
+    display: flex;
+    flex-grow: 1;
+    background-color: aqua;
+
+}
+.navLink h3{
+    margin-left: 20px;
+}
+
+.searchBox{
+    width: 200px;
+    height: 50px;
+    background-color:lightcyan;
+    flex-grow: 2;
+    background-color: red;
+  
+
+
+}
+
+.basket{
+    font-size: 25px;
+    flex-grow: 1;
+    background-color: blueviolet;
+    display: flex;
+  justify-content: space-evenly;
+
+}
+
+
