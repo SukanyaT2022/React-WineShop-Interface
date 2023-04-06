@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavBar.css';
-import { FaWineBottle, FaWineGlassAlt } from 'react-icons/fa';
+import { FaSearch, FaWineBottle, FaWineGlassAlt } from 'react-icons/fa';
 import { BsFillPersonFill } from 'react-icons/bs';
 import { SlBasket } from 'react-icons/sl';
 
@@ -21,14 +21,28 @@ const NavBar = () => {
         </div>
 
         <div className="searchBox">
-        <div className='searchBoxSize'></div> 
-        <div class='dropDown'>dropdown</div>
+        <div className='searchBoxSize'>
+          <input type="search" placeholder ="wineShop.com" className='inputBoxNav'/>
+          <FaSearch className='searchIconNav'/>
+          </div> 
+{/* //dropdown menu */}
+        <div class='dropDown'>
+          <select className='dropdownSelect'>
+         <option>NY</option>
+         <option>CT</option>
+         <option>NJ</option>
+         <option>FL</option>
+
+          </select>
+         </div>
+
        </div>
 
+
         <div className="basket">
-          <FaWineGlassAlt />
-          <BsFillPersonFill />
-          <SlBasket />
+          <a href=""><FaWineGlassAlt /></a>
+          < a href=""><BsFillPersonFill /></a>
+          < a href=""><SlBasket /></a>
         </div>
       </div>
     </div>

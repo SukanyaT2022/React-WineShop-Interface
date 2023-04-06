@@ -23,41 +23,84 @@ padding: 20px;
 /* below section */
 
 .mainBelow{
-    display: flex;
+    /* display: flex; */
     margin-left: 50px;
-
-
-
-
+    margin-right: 50px;
+    /* if we use grid to make 3 templates---
+    remove display flex coz we use display grid so no width in small box*/
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+  grid-template-columns:1fr 2fr 1fr;
 }
 .navLink{
     display: flex;
-    flex-grow: 1;
-    background-color: aqua;
+    /* flex-grow: 1; if not use flex -grow we use width insted */
+    /* width: 33.33%; */
+
+justify-content: space-evenly;
+/*sjustify content -pace-evely help all small text have gap evenly*/
 
 }
-.navLink h3{
-    margin-left: 20px;
-}
+
 
 .searchBox{
-    width: 200px;
-    height: 50px;
-    background-color:lightcyan;
-    flex-grow: 2;
-    background-color: red;
+ 
+    /* flex-grow: 2; */
+    /* width: 33.33%; */
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
   
+
+}
+/* we need input to target the search box */
+.searchBoxSize input{
+width: 400px;
+padding: 10px; 
+/* give padding insted of height */
+text-align: center;
+background-color: lightgray;
+border: 1px solid lightgray;
 
 
 }
+
+.searchBoxSize {
+    position: relative; 
+      /*relative parent coz inside parent*/
+}
+
+
+/* target icon in search box */
+.searchIconNav{
+    position: absolute;/*wwe move icon which is child so we use absolute*/
+    top: 25%;
+    left: 5%;
+    color: gray;
+    font-size: 20px;
+    
+}
+/* control select tag */
+.dropdownSelect{
+    padding: 10px;
+border: none;
+
+}
+
 
 .basket{
     font-size: 25px;
-    flex-grow: 1;
-    background-color: blueviolet;
-    display: flex;
-  justify-content: space-evenly;
+    /* flex-grow: 1; */
+    /* width: 33.33%; */
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.basket a{
+    margin: 0px 10px;
 }
 
 
