@@ -1,5 +1,6 @@
 import React from 'react';
 import './NavBar.css';
+
 import { FaSearch, FaWineBottle, FaWineGlassAlt } from 'react-icons/fa';
 import { BsFillPersonFill } from 'react-icons/bs';
 import { SlBasket } from 'react-icons/sl';
