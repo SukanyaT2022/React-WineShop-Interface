@@ -1,29 +1,42 @@
-.control3boxes{
-    border-bottom: 1px solid lightgrey;
-    border-left: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
-   border-radius: 10%;
-    padding: 0!important;
-    width: 30%!important;
-    margin: 15px;
-    padding-bottom: 20px!important;
-
- 
-
+.control3boxes {
+  border-bottom: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-radius: 10%;
+  padding: 0 !important;
+  width: 30% !important;
+  margin: 15px;
+  padding-bottom: 20px !important;
+  margin: auto;
+  margin-top: 80px !important;
 }
 
-.control3boxes img{
-width: 100%;
-border-top-left-radius: 10%;
-border-top-right-radius: 10%;
-
+.control3boxesGrid {
+  border-radius: 50%;
+  padding: 0 !important;
+  width: 30% !important;
+  margin: 15px;
+  padding-bottom: 20px !important;
+  margin: auto;
+  margin-top: 80px !important;
 }
 
-.control3boxes h4{
-margin-left: 20px;
-margin-top: 10px;
+.control3boxes img,
+.control3boxesGrid .card img {
+  width: 100%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
 }
 
-.control3boxes small{
-    margin-left: 20px;
+.control3boxesGrid .card {
+  border-radius: 10%;
+}
+
+.control3boxes h4 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.control3boxes small {
+  margin-left: 20px;
 }
