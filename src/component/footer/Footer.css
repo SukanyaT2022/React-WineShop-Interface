@@ -1,0 +1,25 @@
+.bigBox{
+    background-color: beige;
+}
+
+.controlSmallBox{
+    padding-left: 100px;
+    padding-top: 30px;
+   
+}
+
+.controlSmallBox p{
+    color: black!important;
+    opacity: 1!important;
+}
+
+.socialMedia a{
+    font-size: 30px;
+    margin-right: 20px;
+    text-align: center;
+    color: black;
+
+}
+.controlSmallBox input{
+    margin: 10px 0px;
+}

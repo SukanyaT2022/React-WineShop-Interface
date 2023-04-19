@@ -4,6 +4,8 @@ import NavBar from './component/NavBar';
 import HeaderBox from './component/Header/Header';
 import Grid from './component/GridBox/Grid';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './component/footer/Footer';
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
 
       <HeaderBox />
       <Grid />
+      <Footer/>
     </div>
   );
 }
