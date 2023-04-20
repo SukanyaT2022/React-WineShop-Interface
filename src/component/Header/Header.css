@@ -1,126 +1,111 @@
-.mainBigHero{
- background-image: url("https://images.unsplash.com/photo-1508471608746-b7f6b8a5b0b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2luZWdsYXNzJTIwcGljbmljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-height: 300px;
-
-
+.mainBigHero {
+  background-image: url('https://images.unsplash.com/photo-1508471608746-b7f6b8a5b0b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2luZWdsYXNzJTIwcGljbmljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
 }
-.text{
-text-align: center;
-margin-top: 20px;
-padding-top: 40px;
-color: white;
-
+.text {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 40px;
+  color: white;
 }
-.text h3, p{ 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+.text h3,
+p {
+  /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white; */
 }
 
-
-.line{
-    width: 30%;
-    margin: auto;
-    background-color: white;
-    opacity: 1;/*make text intense in color*/
-    height: 2px;
-    margin-bottom: 5px;
-    border: none;
+.line {
+  width: 30%;
+  margin: auto;
+  background-color: white;
+  opacity: 1; /*make text intense in color*/
+  height: 2px;
+  margin-bottom: 5px;
+  border: none;
 }
 
-.main-buttonIcon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
+.main-buttonIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
 }
-.main-buttonIcon a{
-    text-decoration: none;
-}
-
-.smallButton{
-    display: flex;
-    align-items: center;
-width: 150px;
-background-color: white;
-padding: 10px;
-margin: 10px;
-border-radius: 30px;
-
-}
-.smallButton h5{
-    font-size: 18px;
- color: black;
-margin-top: 5px;
-   
+.main-buttonIcon a {
+  text-decoration: none;
 }
 
-
-.controlIconRed{
-height: 30px;
-width: 30px;
-background-color: darkred;
-border-radius: 100%;
-color: white;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-right: 10px;
-
+.smallButton {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+}
+.smallButton h5 {
+  font-size: 18px;
+  color: black;
+  margin-top: 5px;
 }
 
+.controlIconRed {
+  height: 30px;
+  width: 30px;
+  background-color: darkred;
+  border-radius: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
 
-.controlIconWhite{
-    height: 30px;
-    width: 30px;
-    background-color: greenyellow;
-    border-radius: 100%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-    
-    }
+.controlIconWhite {
+  height: 30px;
+  width: 30px;
+  background-color: greenyellow;
+  border-radius: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
 
-    .controlIconSpark{
-    height: 30px;
-    width: 30px;
-    background-color:lightcoral;
-    border-radius: 100%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-    
-    }
-    .controlIconRose{
-    height: 30px;
-    width: 30px;
-    background-color: lightpink;
-    border-radius: 100%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-    
-    }
-    .controlIconGift{
-    height: 30px;
-    width: 30px;
-    background-color: brown;
-    border-radius: 100%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-    
-    }
-
-
-
+.controlIconSpark {
+  height: 30px;
+  width: 30px;
+  background-color: lightcoral;
+  border-radius: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.controlIconRose {
+  height: 30px;
+  width: 30px;
+  background-color: lightpink;
+  border-radius: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.controlIconGift {
+  height: 30px;
+  width: 30px;
+  background-color: brown;
+  border-radius: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
