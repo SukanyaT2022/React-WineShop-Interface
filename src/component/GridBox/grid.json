@@ -1,19 +1,19 @@
 {
   "superHeroMovie": [
     {
-      "section1": "white Wine",
-      "image": "https://images.unsplash.com/photo-1579721333016-b58535cc0dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2hpdGUlMjB3aW5lfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-      "Genre": "Wine from France"
+      "title": "white Wine",
+      "image": "https://plus.unsplash.com/premium_photo-1661393061273-a0aca0ece168?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+      "description": "Wine from France"
     },
     {
-      "section1": "Red Wine",
-      "image": "https://images.unsplash.com/photo-1561461056-77634126673a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwd2luZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=800&q=60",
-      "Genre": "Wine from Italy"
+      "title": "Red Wine",
+      "image": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVkJTIwd2luZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=800&q=60",
+      "description": "Wine from Italy"
     },
     {
-      "section1": "Rose",
-      "image": "https://images.unsplash.com/photo-1588295198593-eb81fff3c00f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3BhcmtsaW5nJTIwd2luZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=800&q=60",
-      "Genre": "Rose from France"
+      "title": "Rose",
+      "image": "https://images.unsplash.com/photo-1516996222644-b2db58d3422d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cm9zZSUyMGRyaW5rfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "description": "Rose from France"
     }
   ]
 }

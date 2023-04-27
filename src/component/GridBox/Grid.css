@@ -43,6 +43,7 @@
 
 .img-css {
   height: 230px;
+  object-fit: cover;
 }
 
 p {

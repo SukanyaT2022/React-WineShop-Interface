@@ -34,12 +34,8 @@ function Grid() {
               <Card>
                 <Card.Img className="img-css" variant="top" src={value.image} />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
-                  <p>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
+                  <Card.Title>{value.title}</Card.Title>
+                  <p>{value.description}</p>
                 </Card.Body>
               </Card>
             </Col>

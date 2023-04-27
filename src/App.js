@@ -6,6 +6,7 @@ import Grid from './component/GridBox/Grid';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './component/footer/Footer';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import Page2Region from './component/Page2Region/Page2Region';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
 
         <HeaderBox />
         <Grid />
+        <Page2Region/>
+        
         <Footer />
       </div>
 
