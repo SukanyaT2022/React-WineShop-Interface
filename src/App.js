@@ -15,16 +15,17 @@ function App() {
         <NavBar />
 
         <HeaderBox />
-        <Grid />
-        <Page2Region/>
-        
+        {/* <Grid />
+        <Page2Region /> */}
+
+        <Routes>
+          <Route exact path="/card" element={<Grid />}></Route>
+          <Route exact path="/region" element={<Page2Region />}></Route>
+          {/* <Route exact path="/discover" element={}></Route> */}
+        </Routes>
+
         <Footer />
       </div>
-
-      <Routes>
-        <Route exact path="/footer" element={<Footer />}></Route>
-        <Route exact path="/card" element={<Grid />}></Route>
-      </Routes>
     </Router>
   );
 }
