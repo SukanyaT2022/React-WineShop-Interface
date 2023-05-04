@@ -8,7 +8,8 @@ import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
   const navigate = useNavigate();
-//useNavigation() is function of react /work as routing from one page to another page
+//useNavigation() is function of react 
+//work as routing from one page to another page
   const headerRouting = (route) => {
     navigate(route);
   };
@@ -21,11 +22,13 @@ const NavBar = () => {
         <h4>WineShop.Com</h4>
       </div>
       <div className="mainBelow">
+        {/* lines below responsible to hold all page together in nav bar
+        (card)(region)(discover ) need to match on app.js line 24-26 */}
         <div className="navLink">
           <h3 onClick={() => headerRouting('/card')}>Varietal</h3>
           <h3 onClick={() => headerRouting('/region')}>Region</h3>
           <h3 onClick={() => headerRouting('/discover')}>Discover</h3>
-          <h3>Gifts</h3>
+          <h3 onClick={() => headerRouting('/gifts')}>Gifts</h3>
         </div>
 
         <div className="searchBox">
