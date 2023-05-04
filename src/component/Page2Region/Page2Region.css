@@ -18,6 +18,8 @@ display: flex;
 }
 .picSide-left img{
 width: 30%;
+height: 150px;
+object-fit: cover;
 
 }
 
