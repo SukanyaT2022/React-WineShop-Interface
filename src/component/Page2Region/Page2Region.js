@@ -4,7 +4,7 @@ import { useState, React } from 'react';
 function Page2Region() {
   const [count, setCount] = useState(0);
   const handleCount = () => {
-   // let i = count;
+    // let i = count;
     setCount(count++);
   };
 
@@ -31,7 +31,11 @@ function Page2Region() {
             </p>
           </div>
           <div className="cart">
-            <input type="number" value={count} onChange={() =>  setCount(count++)} />
+            <input
+              type="number"
+              value={count}
+              onChange={() => setCount(count++)}
+            />
             <input type="button" value="Add to Cart" />
           </div>
         </div>
