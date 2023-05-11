@@ -1,3 +1,8 @@
+.moveH2{
+text-align: center;
+margin: 40px 0px 20px 0px;
+}
+
 .bigBoxPage2{
     width: 70%;
     margin: 40px auto;
@@ -45,7 +50,7 @@ font-size: 25px;
 }
 .priceDiscount p{
 margin-right: 10px;
-color: red;
+color:black;
 }
 
 .priceDiscount del{
