@@ -16,7 +16,7 @@ function Header() {
         <div className="text">
           <h3>All in one place</h3>
           <hr className="line"></hr>
-          <p>This is wineShop.com country</p>
+          {/* <p>This is wineShop.com country</p> */}
         </div>
         {/* button */}
 

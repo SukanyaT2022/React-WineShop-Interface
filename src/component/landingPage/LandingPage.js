@@ -2,7 +2,8 @@ import React from 'react';
 import './landingPage.css';
 
 function LandingPage() {
-  return
+  return(
+  
   <div className='wrapper'>
     <div className='section1-onlytext'>
 <h5>BETTER WINE</h5>
@@ -17,7 +18,8 @@ function LandingPage() {
 
 </div>
 </div>
-{/* rightBox */}
+
+
 
 <div className='rightBox'>
 <div className='rightBoxImage'>
@@ -30,9 +32,9 @@ function LandingPage() {
 </div>
 
 </div>
-    
 
-    </div>;
-}
+
+    </div>
+)};
 
 export default LandingPage;
