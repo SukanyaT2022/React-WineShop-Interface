@@ -1,4 +1,49 @@
+
+
 .section1-onlytext{
-    
+text-align: center; 
+
+}
+
+.section1-controlLeftRight{
+    display: flex;
+width: 90%;
+height: 50vh;
+margin: auto;
+border: 1px solid lightgray;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 20px;
+}
+
+.leftBox{
+width: 50%;
+height: 50vh;
+background-color: aqua;
+border-top-left-radius:20px ;
+border-bottom-left-radius: 20px;
+padding-left: 30px;
+}
+
+.leftBoxText{
+
+}
+
+.leftBoxImage{
+
+}
+
+.rightBox{
+    width: 50%;
+    height: 50vh;
+    background-color: pink;  
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+
+.rightBoxImage{
+
+}
+
+.rightBoxText{
 
 }
