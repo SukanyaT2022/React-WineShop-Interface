@@ -2,13 +2,13 @@
 
 .section1-onlytext{
 text-align: center; 
-
+margin: 40px 0px 100px 0px;
 }
 
 .section1-controlLeftRight{
     display: flex;
 width: 90%;
-height: 50vh;
+height: auto;
 margin: auto;
 border: 1px solid lightgray;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -16,34 +16,76 @@ border-radius: 20px;
 }
 
 .leftBox{
+    display: flex;
+    justify-content: space-between;
 width: 50%;
-height: 50vh;
+height: auto;
 background-color: aqua;
 border-top-left-radius:20px ;
 border-bottom-left-radius: 20px;
-padding-left: 30px;
+padding:30px 80px 20px 80px ;
+
 }
 
 .leftBoxText{
+   
 
 }
 
-.leftBoxImage{
+.leftBoxImage img{
+height: 380px;
+width: 100px;
+object-fit: cover;
+margin-top: -80px;
+}
+
+.targetSizeH5{
+    font-size: 30px;
+    color:blue;
 
 }
+.targetSizeSmall{
+    font-size: 15px;
+}
+
 
 .rightBox{
     width: 50%;
-    height: 50vh;
+    height: auto;
     background-color: pink;  
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
+padding:30px 80px 20px 80px ;
+display: flex;
+justify-content: space-between;
+
+
 }
 
-.rightBoxImage{
+.rightBoxImage img{
+    height: 380px;
+    width: 100px;
+    object-fit: cover;
+    margin-top: -80px;
+    }
 
-}
 
 .rightBoxText{
 
+}
+.controlRatingSection{
+    display: flex;
+}
+/* box around star */
+.targetOnlyStar{
+ margin-left: 10px; 
+ 
+}
+/* target individual star */
+.targetOnlyStar a{
+    margin: 0px 2px;
+    color: white;
+}
+.targetLaststar{
+    color: ;
 }

@@ -16,25 +16,27 @@ function LandingPage() {
 <div className='leftBox'>
 <div className='leftBoxText'>
 <p>WineShop.com</p>
-<h5>AAAAAAAaAAA Valley</h5>
+<h5 className='targetSizeH5'>AAAAAAAaAAA Valley</h5>
 <p> AAAAAA Valley</p>
-<p>2 years in French Oak</p>
+<p className='targetSizeSmall'>2 years in French Oak</p>
 
 <div className='controlRatingSection'>
 <p>Rating 4.0</p>
 <div className='targetOnlyStar'>
-<FaStar/>
-<FaStar/>
-<FaStar/>
-<FaStar/>
-<FaRegStar/>
+<a href=''><FaStar/></a>
+<a href=''><FaStar/></a>
+<a href=''><FaStar/></a>
+<a href=''><FaStar/></a>
+<a href='' className='targetLaststar'><FaRegStar/></a>
+</div>
 </div>
  <p>$29.99</p>
-</div>
 
 </div>
 <div className='leftBoxImage'>
-<img src="/Users/tiparpron/Desktop/ReactProject/Apr3-interface/my-app/src/asset/image/wineBottle-BGremove.png"/>
+    {/* //--./mean we are in public folder when put image*/}
+<img src="./asset/image/wineBottle-BGremove.png"/>
+
 </div>
 </div>
 
@@ -42,10 +44,26 @@ function LandingPage() {
 
 <div className='rightBox'>
 <div className='rightBoxImage'>
-
+<img src="./asset/image/wineBottle-BGremove.png"/>
 </div>
 
 <div className='rightBoxText'>
+<p>WineShop.com</p>
+<h5 className='targetSizeH5'>AAAAAAAaAAA Valley</h5>
+<p> AAAAAA Valley</p>
+<p className='targetSizeSmall'>2 years in French Oak</p>
+
+<div className='controlRatingSection'>
+<p>Rating 4.0</p>
+<div className='targetOnlyStar'>
+<a href=''><FaStar/></a>
+<a href=''><FaStar/></a>
+<a href=''><FaStar/></a>
+<a href=''><FaStar/></a>
+<a href='' className='targetLaststar'><FaRegStar/></a>
+</div>
+</div>
+ <p>$29.99</p>
 
 </div>
 </div>
