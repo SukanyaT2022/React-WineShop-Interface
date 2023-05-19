@@ -4,9 +4,8 @@
 /* welcome section */
 
 .mainbox-welcome{
-  display: flex;
-    
-
+  display: flex;  
+margin: 50px 0px;
 }
 
 .imageBox-welcome{
@@ -22,33 +21,50 @@
     position: relative;
 
 }
-/* target farmer pic */
+/* target farmer pic--small pic on top */
 .imageBox-welcome img{
     width: 40%;
     position: absolute;
-    bottom: 0;
-    right: 0;
-
-    
+    bottom: 0%;
+    right: 0%;
 
 }
 .rightBox-welcome{
     width: 50%;
-    padding: 50px;
+    padding: 50px 70px;
+    background-color: rgb(246, 238, 238);
+}
+.rightBox-welcome h4{
+    background-color: pink;
+width: 70%;
+padding: 3px 5px;
+text-align: center;
+margin: 10px auto;
+border-radius: 10px;
 }
 
 
+.rightBox-welcome p{
+    text-align: justify;
+}
+
+/* button */
 
 
-
-
-
-
-
+.button-welcome{
+    display: block;
+  margin: auto;  
+  background-color: #27AE60 ;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+}
 
 .section1-onlytext{
 text-align: center; 
-margin: 40px 0px 100px 0px;
+margin: 40px 0px 70px 0px;
 }
 
 .section1-controlLeftRight{
@@ -105,11 +121,9 @@ padding:30px 80px 20px 80px ;
 display: flex;
 justify-content: space-between;
 
-
 }
 .rightBoxImage {
     width: 70%;
-  
 }
 
 .rightBoxImage img{
@@ -118,7 +132,6 @@ justify-content: space-between;
     object-fit: cover;
     margin-top: -80px;
     }
-
 
 .rightBoxText{
 
@@ -138,4 +151,13 @@ justify-content: space-between;
 }
 .targetLaststar{
     color: ;
+}
+
+/* what people say section  */
+
+
+.mainGridBox-peopleSaySection{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-column-gap: ;
 }
