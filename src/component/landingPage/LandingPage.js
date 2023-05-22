@@ -1,6 +1,6 @@
 import React from 'react';
 import './landingPage.css';
-import { FaRegStar, FaStar } from 'react-icons/fa';
+import { FaQuoteLeft, FaRegStar, FaStar } from 'react-icons/fa';
 
 function LandingPage() {
   return (
@@ -124,8 +124,9 @@ function LandingPage() {
               {/* start card 1*/}
           <div className="card-peopleSay">
             <img src="https://images.unsplash.com/photo-1553682544-4ccf2778c9a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdpbmV8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=800&q=60" />
-            <span>&ldquo;</span>
-            {/* &ldquo; means " " on the box */}
+        <span><FaQuoteLeft/></span>
+     
+            {/* &ldquo; means " " or quotationon the box */}
 
             <p>
               The customer service was unbelievably awesome, we were so
@@ -138,7 +139,7 @@ function LandingPage() {
    {/* start card 2*/}
    <div className="card-peopleSay">
             <img src="https://images.unsplash.com/photo-1553682544-4ccf2778c9a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdpbmV8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=800&q=60" />
-            <span>&ldquo;</span>
+            <span><FaQuoteLeft/></span>
             {/* &ldquo; means " " on the box */}
 
             <p>
@@ -152,7 +153,7 @@ function LandingPage() {
    {/* start card 3*/}
    <div className="card-peopleSay">
             <img src="https://images.unsplash.com/photo-1553682544-4ccf2778c9a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdpbmV8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=800&q=60" />
-            <span>&ldquo;</span>
+            <span><FaQuoteLeft/></span>
             {/* &ldquo; means " " on the box */}
 
             <p>
@@ -165,7 +166,7 @@ function LandingPage() {
   {/* start card 4*/}
   <div className="card-peopleSay">
             <img src="https://images.unsplash.com/photo-1553682544-4ccf2778c9a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdpbmV8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=800&q=60" />
-            <span>&ldquo;</span>
+            <span><FaQuoteLeft/></span>
             {/* &ldquo; means " " on the box */}
 
             <p>

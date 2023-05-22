@@ -154,10 +154,61 @@ justify-content: space-between;
 }
 
 /* what people say section  */
-
+.mainBox-peopleSaySection{
+    width: 90%;
+    margin: auto; 
+}
 
 .mainGridBox-peopleSaySection{
 display: grid;
 grid-template-columns: repeat(4,1fr);
-grid-column-gap: ;
+grid-column-gap:50px ;
+}
+
+.heading-peopleSaySection{
+  text-align: center;
+  margin-top: 70px;
+}
+.heading-peopleSaySection h5{
+    margin-bottom: 20px;
+}
+
+/*target image-round above card*/
+
+.card-peopleSay img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 3px solid pink;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    /* transform traslate use for move cicle img perfect center -50% */
+    transform: translateX(-50%);
+   
+}
+.card-peopleSay {
+    border: 2px solid lightgray;
+  position: relative;
+  margin: 150px 0px 30px 0px ;
+  padding: 0px 20px 30px 25px;
+  text-align: center;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+
+}
+/* for quotation in the middle */
+.card-peopleSay span{
+    display: block;
+    margin: 50px auto 10px auto;
+    text-align: center;
+    font-size: 30px;
+   color: green;
+}
+.card-peopleSay small{
+    margin-top: 80px;
 }
