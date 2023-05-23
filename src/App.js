@@ -10,6 +10,7 @@ import Page2Region from './component/Page2Region/Page2Region';
 import Page3Discover from './component/Page3Discover/Page3Discover';
 import Page4Gift from './component/Page4Gift/Page4Gift';
 import LandingPage from './component/landingPage/LandingPage';
+import ContactUs from './component/footer/ContactUs';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/region" element={<Page2Region />}></Route>
           <Route exact path="/discover" element={<Page3Discover />}></Route>
           <Route exact path="/gifts" element={<Page4Gift />}></Route>
+          <Route exact path="/contact-us" element={<ContactUs />}></Route>
         </Routes>
 
         <Footer />

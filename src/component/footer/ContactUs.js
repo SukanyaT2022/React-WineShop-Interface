@@ -1,12 +1,8 @@
-import React from 'react'
+import React from 'react';
 import './ContactUs.css';
 
 function ContactUs() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div>Contact Us</div>;
 }
 
-export default ContactUs
+export default ContactUs;
