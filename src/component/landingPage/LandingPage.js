@@ -6,6 +6,7 @@ function LandingPage() {
   return (
     <div className="wrapper">
       {/* start welcome section */}
+      <h4 className='welcomePinkH4'>Welcome to wineShop.com</h4>
       <div className="mainbox-welcome">
         <div className="imageBox-welcome">
           <img
@@ -14,7 +15,7 @@ function LandingPage() {
           />
         </div>
         <div className="rightBox-welcome">
-          <h4>Welcome to wineShop.com</h4>
+         
           <h3>Support independent winemakers.</h3>
           <p>
             With the support of 400,000 wine drinkers, we fund talented,
@@ -176,12 +177,6 @@ function LandingPage() {
             <small>Cooper K</small>
           </div>
  {/* end card */}
-
-
-
-
-
-
 
         </div>
   

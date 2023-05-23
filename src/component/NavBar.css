@@ -1,3 +1,10 @@
+html,body{
+overflow-x: hidden;
+}
+
+/* add hamberger menu on nav bar when make screen smaller */
+
+
 .mainNavBar {
 }
 
