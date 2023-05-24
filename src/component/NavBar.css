@@ -5,8 +5,16 @@ overflow-x: hidden;
 /* add hamberger menu on nav bar when make screen smaller */
 
 
-.mainNavBar {
+.nav-bigBox{
+
+width: 100%;
+margin: auto;
+display: flex;
+position: relative;
+color: black;
+
 }
+
 
 .flashSale {
   background-color: darkred;
@@ -19,6 +27,7 @@ overflow-x: hidden;
 display: flex;
 align-items: center;
   margin: 10px 0px 10px 50px;
+  position: relative;
 
 
 }
@@ -35,14 +44,14 @@ align-items: center;
 /* below section */
 
 .mainBelow {
+  width: 100%;
+
   /* display: flex; */
-  margin-left: 50px;
-  margin-right: 50px;
   /* if we use grid to make 3 templates---
     remove display flex coz we use display grid so no width in small box*/
-  display: grid;
+  /* display: grid; */
   /* grid-template-columns: repeat(3,1fr); */
-  grid-template-columns: 1fr 2fr 1fr;
+  /* grid-template-columns: 1fr 2fr 1fr; */
 }
 .navLink {
   display: flex;
@@ -68,6 +77,10 @@ align-items: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 /* we need input to target the search box */
 .searchBoxSize input {
@@ -75,8 +88,9 @@ align-items: center;
   padding: 10px;
   /* give padding insted of height */
   text-align: center;
-  background-color: lightgray;
+  background-color: rgb(246, 238, 238);
   border: 1px solid lightgray;
+  border-radius: 20px;
 }
 
 .searchBoxSize {
@@ -104,10 +118,74 @@ align-items: center;
   /* width: 33.33%; */
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+
 }
 .basket a {
   margin: 0px 15px;
   color: black;
 }
+
+.basketMediaQueries{
+    font-size: 25px;
+    /* flex-grow: 1; */
+    /* width: 33.33%; */
+  
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+  
+
+}
+.basketMediaQueries a {
+  margin: 0px 15px;
+  color: black;
+}
+
+/*ipad*/
+@media screen and (max-width: 992px){
+
+  .searchBox {
+    right: 50%;
+    bottom: -50%;
+    transform: translate(-50%,-0%);
+  }
+  .basket {
+display: none;
+  
+  }
+
+  .basketMediaQueries{  
+display: flex;
+    right: 20px;
+    top: 0;
+  
+}
+
+
+
+
+
+
+}
+
+/*ipad-mini*/
+@media screen and (max-width: 768px){
+
+
+}
+
+/*phone*/
+@media screen and (max-width: 600px){
+
+
+}
+
+

@@ -21,6 +21,21 @@ const NavBar = () => {
       <div className="logo">
         <FaWineBottle className="logoIcon" />
         <h4 onClick={() => headerRouting('/')}> WineShop.Com</h4>
+
+ {/* basket section icon glass user*/}
+ <div className="basketMediaQueries">
+          <a href="">
+            <FaWineGlassAlt />
+          </a>
+          <a href="">
+            <BsFillPersonFill />
+          </a>
+          <a href="">
+            <SlBasket />
+          </a>
+        </div>
+
+
       </div>
       <div className="mainBelow">
         {/* lines below responsible to hold all page together in nav bar
@@ -32,29 +47,27 @@ const NavBar = () => {
           <h3 onClick={() => headerRouting('/gifts')}>Gifts</h3>
         </div> */}
 
-        <Navbar collapseOnSelect expand="sm">
+        <Navbar collapseOnSelect expand="lg" text='dark' variant='danger'>
           <Container>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav>
-                <Nav.Link onClick={() => headerRouting('/card')}>
+              <Nav className='nav-bigBox'  >
+                <Nav.Link className='text-dark' onClick={() => headerRouting('/card')}>
                   Varietal
                 </Nav.Link>
-                <Nav.Link onClick={() => headerRouting('/region')}>
+                <Nav.Link className='text-dark' onClick={() => headerRouting('/region')}>
                   Region
                 </Nav.Link>
-                <Nav.Link onClick={() => headerRouting('/discover')}>
+                <Nav.Link  className='text-dark' onClick={() => headerRouting('/discover')}>
                   Discover
                 </Nav.Link>
-                <Nav.Link onClick={() => headerRouting('/gifts')}>
+                <Nav.Link className='text-dark' onClick={() => headerRouting('/gifts')}>
                   Gifts
                 </Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
 
-        <div className="searchBox">
+
+                {/* searchBox */}
+                <div className="searchBox">
           <div className="searchBoxSize">
             <input
               type="search"
@@ -74,6 +87,7 @@ const NavBar = () => {
           </div>
         </div>
 
+        {/* basket section icon glass user*/}
         <div className="basket">
           <a href="">
             <FaWineGlassAlt />
@@ -85,6 +99,45 @@ const NavBar = () => {
             <SlBasket />
           </a>
         </div>
+              </Nav>
+            </Navbar.Collapse>
+
+           
+          </Container>
+
+        </Navbar>
+
+        {/* <div className="searchBox">
+          <div className="searchBoxSize">
+            <input
+              type="search"
+              placeholder="wineShop.com"
+              className="inputBoxNav"
+            />
+            <FaSearch className="searchIconNav" />
+          </div>
+        
+          <div class="dropDown">
+            <select className="dropdownSelect">
+              <option>NY</option>
+              <option>CT</option>
+              <option>NJ</option>
+              <option>FL</option>
+            </select>
+          </div>
+        </div> */}
+
+        {/* <div className="basket">
+          <a href="">
+            <FaWineGlassAlt />
+          </a>
+          <a href="">
+            <BsFillPersonFill />
+          </a>
+          <a href="">
+            <SlBasket />
+          </a>
+        </div> */}
       </div>
     </div>
   );
