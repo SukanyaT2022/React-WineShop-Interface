@@ -40,7 +40,7 @@ const Footer = () => {
           {/* //third row  */}
 
           <Col className="controlSmallBox">
-            <h4>Join Our Email List</h4>
+            <h4 className='targetJoinemail'>Join Our Email List</h4>
             <div>
               <form>
                 <input type="text" />

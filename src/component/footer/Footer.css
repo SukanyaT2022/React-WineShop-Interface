@@ -21,5 +21,42 @@
 
 }
 .controlSmallBox input{
-    margin: 10px 0px;
+    margin: 10px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+/*ipad*/
+@media screen and (max-width: 992px){
+    .controlSmallBox{
+        padding-left: 35px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+       
+    }
+    .controlSmallBox input{
+       display: block;
+       margin: 10px auto;
+    }
+    .targetJoinemail{
+        text-align: center;
+    }
+
+}
+
+/*ipad-mini*/
+@media screen and (max-width: 768px){
+    .controlSmallBox{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 30px;
+        text-align: center;
+       
+    }
+
+}
+
+/*phone*/
+@media screen and (max-width: 600px){
 }

@@ -6,7 +6,6 @@ overflow-x: hidden;
 
 
 .nav-bigBox{
-
 width: 100%;
 margin: auto;
 display: flex;
@@ -28,8 +27,6 @@ display: flex;
 align-items: center;
   margin: 10px 0px 10px 50px;
   position: relative;
-
-
 }
 .logo h4 {
     margin-top: 10px;
@@ -154,7 +151,7 @@ align-items: center;
 
   .searchBox {
     right: 50%;
-    bottom: -50%;
+    bottom: -30%;
     transform: translate(-50%,-0%);
   }
   .basket {
@@ -162,16 +159,16 @@ display: none;
   
   }
 
-  .basketMediaQueries{  
+.basketMediaQueries{  
 display: flex;
     right: 20px;
     top: 0;
   
 }
 
-
-
-
+.dropdownSelect:focus{
+  font-size: 10px;
+}
 
 
 }
@@ -184,8 +181,33 @@ display: flex;
 
 /*phone*/
 @media screen and (max-width: 600px){
+  
+/*only target individule icon*/
+    .basketMediaQueries a {
+      margin: 0px 5px;
+    
+    }
 
+    .logo {
+        margin: 10px 0px 10px 12px;
+      }
 
+      .searchBox {
+       left: 57%;
+        bottom: -55%;
+        transform: translate(-0%,-0%);
+
+      }
+      /*reduce size search box input which inside serachbox*/
+      .searchBoxSize input {
+        width: 250px;
+        padding: 10px;
+        /* give padding insted of height */
+        text-align: center;
+        background-color: rgb(246, 238, 238);
+        border: 1px solid lightgray;
+        border-radius: 20px;
+      }
 }
 
 

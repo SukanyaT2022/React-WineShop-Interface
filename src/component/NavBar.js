@@ -79,7 +79,7 @@ const NavBar = () => {
           {/* //dropdown menu */}
           <div class="dropDown">
             <select className="dropdownSelect">
-              <option>NY</option>
+              <option >NY</option>
               <option>CT</option>
               <option>NJ</option>
               <option>FL</option>
