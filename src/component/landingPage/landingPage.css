@@ -231,3 +231,40 @@ grid-column-gap:50px ;
 .card-peopleSay small{
     margin-top: 80px;
 }
+
+/*ipad*/
+@media screen and (max-width: 992px){
+    .welcomePinkH4{
+    width: 60%;
+    }
+
+    .leftBox{
+     
+    padding:30px 80px 20px 40px ;  
+    }
+    .rightBox{
+    padding:30px 80px 20px 30px ;
+ 
+    }
+    .mainGridBox-peopleSaySection{
+     
+        grid-template-columns: repeat(2,1fr);
+    
+        }
+
+        .card-peopleSay img{
+            width: 140px;
+            height: 140px;
+            
+           
+        }
+
+}
+
+/*ipad-mini*/
+@media screen and (max-width: 768px){
+}
+
+/*phone*/
+@media screen and (max-width: 600px){
+}
