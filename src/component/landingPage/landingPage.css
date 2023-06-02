@@ -1,65 +1,60 @@
-.welcomePinkH4{
-    /* background-color: pink; */
-width: 30%;
-padding: 3px 5px;
-text-align: center;
-margin: 50px auto;
-border-radius: 10px;
-font-size: 30px;
-
+.welcomePinkH4 {
+  /* background-color: pink; */
+  width: 30%;
+  padding: 3px 5px;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 10px;
+  font-size: 30px;
 }
 
 /* welcome section */
 
-.mainbox-welcome{
-  display: flex;  
-margin: 50px 0px;
+.mainbox-welcome {
+  display: flex;
+  margin: 50px 0px;
 }
 
-.imageBox-welcome{
-    background-image: url("https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2luZSUyMGJvdHRsZXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60");;
-    width: 50%;
-    /* below the way to move small image on top of big image*/
-    /* display: flex;
+.imageBox-welcome {
+  background-image: url('https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2luZSUyMGJvdHRsZXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
+  width: 50%;
+  /* below the way to move small image on top of big image*/
+  /* display: flex;
     align-items:flex-end;
     justify-content: flex-end; */
 
-    /* put position relative for parent */
+  /* put position relative for parent */
 
-    position: relative;
-
+  position: relative;
 }
 /* target farmer pic--small pic on top */
-.imageBox-welcome img{
-    width: 40%;
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
-
+.imageBox-welcome img {
+  width: 40%;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
 }
-.rightBox-welcome{
-    width: 50%;
-    padding: 50px 70px;
-    background-color: rgb(246, 238, 238);
-}
-
-.rightBox-welcome h3{
-    text-align: center;
-    margin: 15px 0px;
+.rightBox-welcome {
+  width: 50%;
+  padding: 50px 70px;
+  background-color: rgb(246, 238, 238);
 }
 
+.rightBox-welcome h3 {
+  text-align: center;
+  margin: 15px 0px;
+}
 
-.rightBox-welcome p{
-    text-align: justify;
+.rightBox-welcome p {
+  text-align: justify;
 }
 
 /* button */
 
-
-.button-welcome{
-    display: block;
-  margin: auto;  
-  background-color: #27AE60 ;
+.button-welcome {
+  display: block;
+  margin: auto;
+  background-color: #27ae60;
   border: none;
   padding: 10px 20px;
   border-radius: 10px;
@@ -67,204 +62,304 @@ margin: 50px 0px;
   color: white;
 }
 
-.section1-onlytext{
-text-align: center; 
-margin: 60px 0px 90px 0px;
-
+.section1-onlytext {
+  text-align: center;
+  margin: 60px 0px 90px 0px;
 }
-.section1-onlytext h5{
-    background-color: pink;
-width: 20%;
-border-radius: 10px;
-padding: 3px;
-margin: 0px auto 15px auto;
-}
-
-.section1-controlLeftRight{
-    display: flex;
-width: 90%;
-height: auto;
-margin: auto;
-border: 1px solid lightgray;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-border-radius: 20px;
+.section1-onlytext h5 {
+  background-color: pink;
+  width: 20%;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 0px auto 15px auto;
 }
 
-.leftBox{
-    display: flex;
-    justify-content: space-between;
-width: 50%;
-height: auto;
-background-color: aqua;
-border-top-left-radius:20px ;
-border-bottom-left-radius: 20px;
-padding:30px 80px 20px 80px ;
-
+.section1-controlLeftRight {
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border: 1px solid lightgray;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
 }
 
-.leftBoxText{
-   
-
+.leftBox {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: auto;
+  background-color: aqua;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 30px 80px 20px 80px;
 }
 
-.leftBoxImage img{
-height: 380px;
-width: 100px;
-object-fit: cover;
-margin-top: -80px;
+.leftBoxText {
 }
 
-.targetSizeH5{
-    font-size: 30px;
-    color:blue;
-
-}
-.targetSizeSmall{
-    font-size: 15px;
+.leftBoxImage img {
+  height: 380px;
+  width: 100px;
+  object-fit: cover;
+  margin-top: -80px;
 }
 
+.targetSizeH5 {
+  font-size: 30px;
+  color: blue;
+}
+.targetSizeSmall {
+  font-size: 15px;
+}
 
-.rightBox{
-    width: 50%;
-    height: auto;
-    /* background-color: pink;   */
-border-top-right-radius: 20px;
-border-bottom-right-radius: 20px;
-padding:30px 80px 20px 80px ;
-display: flex;
-justify-content: space-between;
-
+.rightBox {
+  width: 50%;
+  height: auto;
+  /* background-color: pink;   */
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 30px 80px 20px 80px;
+  display: flex;
+  justify-content: space-between;
 }
 .rightBoxImage {
-    width: 70%;
+  width: 70%;
 }
 
-.rightBoxImage img{
-    height: 380px;
-    width: 100px;
-    object-fit: cover;
-    margin-top: -80px;
-    }
-
-.rightBoxText{
-
+.rightBoxImage img {
+  height: 380px;
+  width: 100px;
+  object-fit: cover;
+  margin-top: -80px;
 }
-.controlRatingSection{
-    display: flex;
+
+.rightBoxText {
+}
+.controlRatingSection {
+  display: flex;
 }
 /* box around star */
-.targetOnlyStar{
- margin-left: 10px; 
- 
+.targetOnlyStar {
+  margin-left: 10px;
 }
 /* target individual star */
-.targetOnlyStar a{
-    margin: 0px 2px;
-    color: white;
+.targetOnlyStar a {
+  margin: 0px 2px;
+  color: white;
 }
-
 
 /* what people say section  */
-.mainBox-peopleSaySection{
-    width: 90%;
-    margin: 0px auto 50px auto; 
+.mainBox-peopleSaySection {
+  width: 90%;
+  margin: 0px auto 50px auto;
 }
 /* <h5>ON THE GRAPE VINE</h5> */
-.mainBox-peopleSaySection h5{
-    background-color: pink;
-    width: 30%;
-   margin: -10px auto -10px auto;
-   padding: 3px;
-   border-radius: 10px;
+.mainBox-peopleSaySection h5 {
+  background-color: pink;
+  width: 30%;
+  margin: -10px auto -10px auto;
+  padding: 3px;
+  border-radius: 10px;
 }
 
-.mainGridBox-peopleSaySection{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-grid-column-gap:50px ;
+.mainGridBox-peopleSaySection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 50px;
 }
 
-.heading-peopleSaySection{
+.heading-peopleSaySection {
   text-align: center;
   margin-top: 70px;
 }
-.heading-peopleSaySection h5{
-    margin-bottom: 20px;
+.heading-peopleSaySection h5 {
+  margin-bottom: 20px;
 }
 
 /*target image-round above card*/
 
-.card-peopleSay img{
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
-    object-fit: cover;
-    border: 3px solid pink;
-    display: block;
-    margin: auto;
-    position: absolute;
-    top: -30%;
-    left: 50%;
-    /* transform traslate use for move cicle img perfect center -50% */
-    transform: translateX(-50%);
-   
+.card-peopleSay img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 3px solid pink;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  /* transform traslate use for move cicle img perfect center -50% */
+  transform: translateX(-50%);
 }
 .card-peopleSay {
-    border: 2px solid lightgray;
+  border: 2px solid lightgray;
   position: relative;
-  margin: 150px 0px 30px 0px ;
+  margin: 150px 0px 30px 0px;
   padding: 0px 20px 30px 25px;
   text-align: center;
   height: 300px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 20px;
-
 }
 /* for quotation in the middle */
-.card-peopleSay span{
-    display: block;
-    margin: 50px auto 10px auto;
-    text-align: center;
-    font-size: 30px;
-   color: green;
+.card-peopleSay span {
+  display: block;
+  margin: 50px auto 10px auto;
+  text-align: center;
+  font-size: 30px;
+  color: green;
 }
-.card-peopleSay small{
-    margin-top: 80px;
+.card-peopleSay small {
+  margin-top: 80px;
 }
 
 /*ipad*/
-@media screen and (max-width: 992px){
-    .welcomePinkH4{
+@media screen and (max-width: 992px) {
+  /* welcome wineshop.com header */
+  .welcomePinkH4 {
     width: 60%;
-    }
+  }
 
-    .leftBox{
-     
-    padding:30px 80px 20px 40px ;  
-    }
-    .rightBox{
-    padding:30px 80px 20px 30px ;
- 
-    }
-    .mainGridBox-peopleSaySection{
-     
-        grid-template-columns: repeat(2,1fr);
-    
-        }
+  .leftBox {
+    padding: 30px 80px 20px 40px;
+  }
+  .rightBox {
+    padding: 30px 80px 20px 30px;
+  }
+  .mainGridBox-peopleSaySection {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-        .card-peopleSay img{
-            width: 140px;
-            height: 140px;
-            
-           
-        }
-
+  .card-peopleSay img {
+    width: 140px;
+    height: 140px;
+  }
 }
 
 /*ipad-mini*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
+  .leftBox {
+    padding: 30px 80px 20px 20px;
+  }
+  .rightBox {
+    padding: 30px 80px 20px 20px;
+  }
 }
 
 /*phone*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
+  /* welcome wineshop.com header */
+  .welcomePinkH4 {
+    width: 80%;
+    font-size: 20px;
+    margin: 30px auto 0px auto;
+  }
+  .mainbox-welcome {
+    flex-direction: column;
+    margin: 30px 0px;
+  }
+  .rightBox-welcome {
+    width: 100%;
+    padding: 20px 30px;
+  }
+  .imageBox-welcome {
+    width: 100%;
+    height: 200px;
+  }
+  /* below welcome section/bottle section */
+  .section1-onlytext {
+ 
+    margin: 40px 0px 50px 0px;
+  }
+  .section1-onlytext h5 {
+    width: 50%;
+  }
+
+  .section1-onlytext h3 {
+    width: 90%;
+  }
+
+  .section1-controlLeftRight {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  /* smallBox bothe side */
+
+  .leftBox {
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px 0px 20px 20px;
+  }
+
+  .leftBoxText {
+  }
+
+  .leftBoxImage img {
+    height: 250px;
+    width: 100px;
+    object-fit: fill;
+    margin-top: 0px;
+  }
+
+  .targetSizeH5 {
+    font-size: 25px;
+    color: blue;
+  }
+  .targetSizeSmall {
+    font-size: 15px;
+  }
+
+  .rightBox {
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px 40px 20px 20px;
+    margin-top: 20px;
+    background-color: lightgrey;
+  }
+  .rightBoxImage {
+    width: 70%;
+  }
+
+  .rightBoxImage img {
+    height: 250px;
+    width: 100px;
+    object-fit: fill;
+    margin-top: 0px;
+  }
+
+  .rightBoxText {
+
+  }
+  .controlRatingSection {
+    display: flex;
+   
+  }
+  /* box around star */
+  .targetOnlyStar {
+    margin-left: 0px;
+  }
+  /* target individual star */
+  .mainGridBox-peopleSaySection {
+    grid-template-columns: repeat(1, 1fr);
+   width: 80%;
+   margin: auto;
+
+  }
+
+  .card-peopleSay {
+   margin-top: 100px;
+  }
+  .heading-peopleSaySection {
+    text-align: center;
+    margin-top: 70px;
+  }
+  .heading-peopleSaySection h5 {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+
 }
