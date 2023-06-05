@@ -1,78 +1,197 @@
+/* extraBox */
+.main-extraBox {
+  width: 70%;
+  height: 150px;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 40px;
+}
 
-.bigBoxPage2{
-    width: 70%;
-    margin: 40px auto;
-    border: 1px solid lightgray;
-    display: flex;
-    padding: 40px 40px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+.extraBox-TextLeft {
+  width: 40%;
+  height: 150px;
+  padding: 20px;
+  padding-right: 100px;
+  line-height: 20px;
+}
+
+.extraBox-TextLeft h3 {
+  line-height: 40px;
+}
+
+.extraBox-picRight {
+  width: 60%;
+  background-image: url('https://images.unsplash.com/photo-1607554338726-f8881a9a7f9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdpbmV5YXJkJTIwd2luZXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
+  height: 100%;
+  background-size: cover;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* end extrabox on top */
+
+
+.bigBoxPage2 {
+  width: 70%;
+  margin: 40px auto;
+  border: 1px solid lightgray;
+  display: flex;
+  padding: 40px 40px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* left side */
-.picSide-left{
-width: 60%;
-display: flex;
-
+.picSide-left {
+  width: 60%;
+  display: flex;
 }
-.picSide-left img{
-width: 30%;
-height: 150px;
-object-fit: cover;
-
+.picSide-left img {
+  width: 30%;
+  height: 150px;
+  object-fit: cover;
 }
 
-.textNext2Pic{
-padding-left: 30px;
+.textNext2Pic {
+  padding-left: 30px;
 }
 
 /* right side */
 
-.priceSide-right{
-width: 40%;
-display: flex;
-flex-direction: column;
-align-items: flex-end;
-justify-content: space-between;
-
-
-
+.priceSide-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
-.priceDiscount{
-display: flex;
-font-size: 25px;
+.priceDiscount {
+  display: flex;
+  font-size: 25px;
 }
-.priceDiscount p{
-margin-right: 10px;
-color: red;
-}
-
-.priceDiscount del{
-    color: black;
+.priceDiscount p {
+  margin-right: 10px;
+  color: red;
 }
 
-.priceDiscount sup{
-    font-size: 15px;
+.priceDiscount del {
+  color: black;
 }
 
-.cart{
-    display: flex;
+.priceDiscount sup {
+  font-size: 15px;
+}
+
+.cart {
+  display: flex;
+}
+.cart input[type='number'] {
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+}
+
+.cart input[type='button'] {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+}
+
+/*ipad*/
+@media screen and (max-width: 992px) {
+    .main-extraBox {
+        width: 70%; 
+      }
+      
+      .extraBox-TextLeft {
+         padding-right: 0px;
+         width: 50%;
+     
+      }
+      
+      .extraBox-picRight {
+        width: 50%;
+      }
+      
+}
+
+/*ipad-mini*/
+@media screen and (max-width: 768px) {
+}
+
+/*phone*/
+@media screen and (max-width: 600px) {
+
+    .main-extraBox {
+        width: 70%; 
+        flex-direction: column-reverse;
+        height: auto;
+      }
+      
+      .extraBox-TextLeft {
+         padding-right: 0px;
+         width: 100%;
+     
+      }
+      
+      .extraBox-picRight {
+        width: 100%;
+        height: 150px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+      border-bottom-right-radius: 0;
+      }
+
+
+      /*end extrabox*/
+
+      .bigBoxPage2 {
+        width: 80%!important;
+      flex-direction: column;
     
-}
-.cart input[type=number]{
-    width: 50px;
-   margin-right: 10px;
-   border-radius: 10px;
-   text-align: center;
-   padding: 5px;
+    }
+      
+      /* left side */
+      .picSide-left {
+        width: 100%!important;
+        flex-direction: column;
+       
+      }
+      .picSide-left img {
+        width:100%!important;
+        height: 500px;
+        object-fit: cover;
+        margin-bottom: 20px;
+     
+      }
+      
+      .textNext2Pic {
+        padding-left: 0px!important;
+        width: 100%!important;
+      }
+      
+      /* right side */
+      
+      .priceSide-right {
+        width:100%!important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .priceDiscount {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+      }
+
 }
 
-.cart input[type=button]{
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    padding: 5px 10px;
-    border: none;
-}

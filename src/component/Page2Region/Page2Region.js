@@ -10,6 +10,18 @@ function Page2Region() {
 
   return (
     <div>
+{/* begin extrabox */}
+<div className="main-extraBox" >
+<div className='extraBox-TextLeft'>
+  <h3>Filter the World's Largest Wine Store</h3>
+</div>
+<div className='extraBox-picRight'>
+
+</div>
+</div>
+{/* end extra box2 */}
+
+
       <div className="bigBoxPage2 my-5">
         <div className="picSide-left">
           <img src="https://images.pexels.com/photos/12859328/pexels-photo-12859328.jpeg?auto=compress&cs=tinysrgb&w=800" />
