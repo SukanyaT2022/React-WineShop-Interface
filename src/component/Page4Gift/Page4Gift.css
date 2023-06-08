@@ -17,3 +17,104 @@
 .control3boxesGift .card {
   border-radius: 10%;
 }
+/* extraBox */
+.main-extraBox {
+  width: 80%;
+  height: 150px;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 40px;
+}
+
+.extraBox-TextLeft {
+  width: 40%;
+  height: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.extraBox-TextLeft h3 {
+ 
+}
+
+.extraBox-picRight {
+  width: 60%;
+  background-image: url('https://images.unsplash.com/photo-1513884923967-4b182ef167ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdpbmUlMjBnaWZ0fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60');
+  height: 100%;
+  background-size: cover;
+ background-position: center center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* end extrabox on top */
+.controlBigBox4wholeRow{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+
+
+/*ipad*/
+@media screen and (max-width: 992px) {
+  .controlBigBox4wholeRow{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .main-extraBox {
+    width: 80%; 
+  }
+  
+  .extraBox-TextLeft {
+     padding-right: 0px;
+     width: 50%;
+  }
+  
+  .extraBox-picRight {
+    width: 50%;
+  }
+}
+
+/*ipad-mini*/
+@media screen and (max-width: 768px) {
+}
+
+
+/*phone*/
+@media screen and (max-width: 600px) {
+  .main-extraBox {
+    width: 80%; 
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  
+  .extraBox-TextLeft {
+     padding-right: 0px;
+     width: 100%;
+ 
+  }
+  
+  .extraBox-picRight {
+    width: 100%;
+    height: 150px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  border-bottom-right-radius: 0;
+  }
+
+  /*end extrabox*/
+
+  .control3boxesGift {
+    width: 90% !important;
+    margin-top: 40px !important;
+  }
+
+
+}

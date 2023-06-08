@@ -19,7 +19,20 @@ import './Page4Gift.css';
 
 function GridExample() {
   return (
-    <Row xs={1} md={3} className="g-4">
+    <>
+{/* begin extrabox */}
+<div className="main-extraBox" >
+<div className='extraBox-TextLeft'>
+  <h3>Wine Gifts</h3>
+</div>
+<div className='extraBox-picRight'>
+
+</div>
+</div>
+{/* end extra box2 */}
+
+
+    <Row xs={1} md={3} className="g-4 controlBigBox4wholeRow">
       {myData.Gifts.map((value, idx) => (
         <Col className="control3boxesGift">
           <Card>
@@ -33,6 +46,7 @@ function GridExample() {
         </Col>
       ))}
     </Row>
+    </>
   );
 }
 

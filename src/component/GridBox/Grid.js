@@ -45,7 +45,7 @@ function Grid() {
 
       {/* Bootstrap code */}
       <div className="container my-4">
-        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-xs-1 g-4 ">
           <div className="col control3boxes">
             <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlJTIwZHJpbmslMjB3aW5lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" />
             <h4>Pinot Noir on Sale</h4>

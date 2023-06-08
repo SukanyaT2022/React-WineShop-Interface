@@ -49,3 +49,32 @@
 p {
   color: black;
 }
+
+/*ipad*/
+@media screen and (max-width: 992px) {
+  .control3boxes img,
+  .control3boxesGrid .card img {
+    width: 100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+
+}
+
+/*ipad-mini*/
+@media screen and (max-width: 768px) {
+}
+
+/*phone*/
+@media screen and (max-width: 600px) {
+  .control3boxesGrid {
+    width: 90% !important;
+  }
+  .control3boxes {
+    width: 90% !important;
+  }
+  
+}
