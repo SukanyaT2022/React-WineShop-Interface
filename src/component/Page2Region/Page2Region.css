@@ -21,14 +21,17 @@
   line-height: 40px;
 }
 
-.extraBox-picRight {
+.extraBox-picRightIMG {
   width: 60%;
-  background-image: url('https://images.unsplash.com/photo-1607554338726-f8881a9a7f9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdpbmV5YXJkJTIwd2luZXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/05/19/13/grapes-1717388_1280.jpg');
+  background-position: center center;
   height: 100%;
   background-size: cover;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
+
 
 /* end extrabox on top */
 
@@ -116,7 +119,7 @@
      
       }
       
-      .extraBox-picRight {
+      .extraBox-picRightIMG {
         width: 50%;
       }
       
@@ -141,7 +144,7 @@
      
       }
       
-      .extraBox-picRight {
+      .extraBox-picRightIMG {
         width: 100%;
         height: 150px;
         border-top-right-radius: 20px;

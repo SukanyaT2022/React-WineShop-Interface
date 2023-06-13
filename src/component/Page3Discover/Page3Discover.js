@@ -3,8 +3,20 @@ import './Page3Discover.css';
 
 function Page3Discover() {
   return (
+    <>
+    {/* begin extrabox */}
+<div className="main-extraBox" >
+<div className='extraBox-TextLeft'>
+  <h3>Wine under $25</h3>
+</div>
+<div className='extraBox-picRightDiscover'>
+
+</div>
+</div>
+{/* end extra box2 */}
+
     <div id="discover">
-      <h2 className="moveH2">Wine under $25</h2>
+      {/* <h2 className="moveH2">Wine under $25</h2> */}
       <div className="bigBoxPage2 my-5">
         <div className="picSide-left">
           <img src="https://images.pexels.com/photos/12859328/pexels-photo-12859328.jpeg?auto=compress&cs=tinysrgb&w=800" />
@@ -111,6 +123,7 @@ function Page3Discover() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

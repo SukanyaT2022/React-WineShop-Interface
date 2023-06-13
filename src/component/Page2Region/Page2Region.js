@@ -15,7 +15,7 @@ function Page2Region() {
 <div className='extraBox-TextLeft'>
   <h3>Filter the World's Largest Wine Store</h3>
 </div>
-<div className='extraBox-picRight'>
+<div className='extraBox-picRightIMG'>
 
 </div>
 </div>
