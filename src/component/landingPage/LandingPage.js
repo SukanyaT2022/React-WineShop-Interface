@@ -18,7 +18,7 @@ function LandingPage() {
          
           <h3>Support independent winemakers.</h3>
           <p>
-            With the support of 400,000 wine drinkers, we fund talented,
+            With the support of 200,000 wine drinkers, we fund talented,
             independent winemakers up front. This way, they get to spend all
             their attention on making you the best wine possible.
           </p>
@@ -37,16 +37,16 @@ function LandingPage() {
 
       <div className="section1-onlytext">
         <h5>BETTER WINE</h5>
-        <h3>HOW our wines stack up to traditional retail</h3>
+        <h3>How our wines stack up to traditional retail</h3>
       </div>
 
       <div className="section1-controlLeftRight">
         <div className="leftBox">
           <div className="leftBoxText">
-            <p>WineShop.com</p>
-            <h5 className="targetSizeH5">AAAAAAAaAAA Valley</h5>
-            <p> AAAAAA Valley</p>
-            <p className="targetSizeSmall">2 years in French Oak</p>
+            <p>French Wines</p>
+            <h5 className="targetSizeH5">The Loire valley </h5>
+            <p> Pinot Noir</p>
+            <p className="targetSizeSmall">5 years in French Oak</p>
 
             <div className="controlRatingSection">
               <p>Rating 4.0</p>
@@ -82,10 +82,10 @@ function LandingPage() {
           </div>
 
           <div className="rightBoxText">
-            <p>WineShop.com</p>
-            <h5 className="targetSizeH5">AAAAAAAaAAA Valley</h5>
-            <p> AAAAAA Valley</p>
-            <p className="targetSizeSmall">2 years in French Oak</p>
+            <p>Spain Wine</p>
+            <h5 className="targetSizeH5">Duero River Valleys </h5>
+            <p> Rioja wine region</p>
+            <p className="targetSizeSmall">3 years in French Oak</p>
 
             <div className="controlRatingSection">
               <p>Rating 4.0</p>
@@ -107,7 +107,7 @@ function LandingPage() {
                 </a>
               </div>
             </div>
-            <p>$29.99</p>
+            <p>$39.99</p>
           </div>
         </div>
       </div>
